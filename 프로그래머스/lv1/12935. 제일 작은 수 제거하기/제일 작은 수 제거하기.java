@@ -23,8 +23,7 @@ class Solution {
                 continue;
             }
             
-            answer[idx] = arr[j];
-            idx++;
+            answer[idx++] = arr[j];
         }
 
         return answer;
