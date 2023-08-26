@@ -4,9 +4,7 @@ class Solution {
     public String solution(String s) {
         char[] c = s.toCharArray();
         Arrays.sort(c);
-        
-        String ns = new String(c);
-        return new StringBuilder(ns).reverse().toString();
+        return new StringBuilder(new String(c)).reverse().toString();
     }
 }
 
